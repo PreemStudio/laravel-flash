@@ -6,10 +6,10 @@ use PreemStudio\Flash\Flash;
 use PreemStudio\Flash\Message;
 
 /**
- * @param string $message
- * @param string $title
- * @param string $level
- * @param array $config
+ * @param  string  $message
+ * @param  string  $title
+ * @param  string  $level
+ * @param  array  $config
  */
 function flash(
     ?string $message = null,
